@@ -9,9 +9,9 @@ export default function MenuLinks() {
     return (
         <ul className="navbar-nav ms-auto me-3" id="menu">
             <li className="dropdown nav-item">
-                <a className="nav-link dropdown-toggle" href="/staff-augmentation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link className="nav-link dropdown-toggle" href="/staff-augmentation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {locale === 'en' ? 'Solutions' : 'Soluciones'}
-                </a>
+                </Link>
                 <ul className="-bg-section dropdown-menu">
                     <li>
                         <Link className="dropdown-item" title="Technological Service" href='/services'>
